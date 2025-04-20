@@ -5,7 +5,7 @@
         $input = trim(fgets(STDIN));
 
         if (strtolower($input) === 'exit') {
-            echo "Exiting the Number Analyzer. Goodbye!\n";
+            echo "Goodbye!\n";
             break;
         }
 
@@ -20,7 +20,7 @@
         }
 
         if (!$valid) {
-            echo "Error: Please enter only numbers separated by spaces.\n";
+            echo "Please enter only numbers separated by spaces.\n";
             continue;
         }
 
